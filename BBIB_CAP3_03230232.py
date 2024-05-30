@@ -21,6 +21,7 @@ def read_input(file_name):
 # solution
 def print_solution(lines):
     total_sum = 0
+    line_number = 1
     for line in lines:
         first_digit = None
         last_digit = None
@@ -33,9 +34,11 @@ def print_solution(lines):
         if first_digit is not None and last_digit is not None:
             number = int(str(first_digit) + str(last_digit))
             total_sum += number
+            print(f"Line {line_number}'s number is: {number}")
+        line_number += 1
     print(f"The total sum from the given input file is {total_sum}")
 
-# Other parts of code here to run your functions and printing of the required solution.
+# functions and printing of the solution.
 input_file = "232.txt"
 lines = read_input(input_file)
 print_solution(lines)
