@@ -1,3 +1,17 @@
+################################
+# https://github.com/PhurpaLhamo56/03230232_BIA101_CAP3
+# Phurpa Lhamo
+# BBI "B"
+# 03230232
+################################
+# REFERENCES
+# https://youtu.be/6jsCbjQB3y0?si=0_leXVFYmwHx-5Xb
+#https://youtu.be/0eCMCk9Bstw?si=m8RwsXsvPlVXuBTw
+################################
+# SOLUTION
+#  Solution Score:  478287
+################################
+
 # Read the input.txt file
 def read_input(file_name):
     with open(file_name, 'r') as file:
